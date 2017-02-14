@@ -59,3 +59,8 @@ Change value of name input
 ```javascript
 $('#name').attr('value', 'your nemesis')
 ```
+
+Change value of email input
+```javascript
+$('#email').attr('value', 'koalathebear@gmail.com')
+```

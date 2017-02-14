@@ -93,3 +93,8 @@ $('#right-image img').clone().insertAfter('form')
 // or
 $('#right-image img').clone().appendTo('section')
 ```
+
+Repeat last step 10x
+```javascript
+for ( i=0; i < 10; i++ ) { $('#right-image img').clone().appendTo('section') }
+```

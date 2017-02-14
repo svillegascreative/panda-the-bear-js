@@ -2,7 +2,7 @@
 
 Change profile picture
 ```javascript
-$('.profile-image').attr('src', 'http://lorempixel.com/400/400/catss')
+$('.profile-image').attr('src', 'http://lorempixel.com/400/400/cats')
 ```
 
 Replace sky picture
@@ -48,4 +48,9 @@ $('.action-icon-bg').css('background-color', '#00adef')
 Change placeholder text on name input
 ```javascript
 $('#name').attr('placeholder', 'identify yourself')
+```
+
+Change placeholder text on message input
+```javascript
+$('#message').attr('placeholder', 'state ouor business')
 ```

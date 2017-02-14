@@ -29,5 +29,10 @@ $('#time-travel').parent().remove()
 
 5. Change background color on <body>
 ```javascript
-$('body').css('background-color', 'darkslategray')
+$('body').css('background-color', 'silver')
+```
+
+6. Change colour of 'highlight' class
+```javascript
+$('.highlight').css('color', 'navy')
 ```

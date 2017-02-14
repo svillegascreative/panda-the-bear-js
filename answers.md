@@ -75,3 +75,8 @@ $('#submit').attr('value', 'En garde!')
 // or
 $('#submit').val('En garde!')
 ```
+
+Disable submit button
+```javascript
+$('#submit').prop('disabled', true)
+```

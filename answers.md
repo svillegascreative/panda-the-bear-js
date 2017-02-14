@@ -22,4 +22,7 @@ $('h1.highlight').text('Garfield')
 $('#employment .info-title').contents().last().replaceWith('&nbsp;Werks I did');
 ```
 
-4.
+4. Remove Time Travel skills
+```javascript
+$('#time-travel').parent().remove()
+```

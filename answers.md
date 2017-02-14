@@ -52,5 +52,10 @@ $('#name').attr('placeholder', 'identify yourself')
 
 Change placeholder text on message input
 ```javascript
-$('#message').attr('placeholder', 'state ouor business')
+$('#message').attr('placeholder', 'state your business')
+```
+
+Change value of name input
+```javascript
+$('#name').attr('value', 'your nemesis')
 ```

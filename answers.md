@@ -80,3 +80,8 @@ Disable submit button
 ```javascript
 $('#submit').prop('disabled', true)
 ```
+
+Remove personal info from sidebar
+```javascript
+$('.bio-info').empty()
+```

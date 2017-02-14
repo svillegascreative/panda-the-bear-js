@@ -36,3 +36,8 @@ $('body').css('background-color', 'silver')
 ```javascript
 $('.highlight').css('color', 'navy')
 ```
+
+7. Change font family of h1 to 'monospace'
+```javascript
+$('h1').css('font-family', 'monospace')
+```

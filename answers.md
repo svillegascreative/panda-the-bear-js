@@ -98,3 +98,22 @@ Repeat last step 10x
 ```javascript
 for ( i=0; i < 10; i++ ) { $('#right-image img').clone().appendTo('section') }
 ```
+
+Add 'last updated' to sidebar
+```javascript
+// list item
+var listItem = document.createElement('li');
+// left span
+var leftSpan = document.createElement('span');
+var lastUpdated = document.createTextNode('Page last updated on');
+leftSpan.appendChild(lastUpdated);
+listItem.appendChild(leftSpan);
+// right span
+var rightSpan = document.createElement('span');
+var date = document.createTextNode(new Date);
+rightSpan.appendChild(date);
+listItem.appendChild(rightSpan);
+// add to ul
+var list = document.getElementsByClassName('bio-info')[0]
+list.appendChild(listItem)
+```

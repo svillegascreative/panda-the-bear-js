@@ -58,14 +58,20 @@ $('#message').attr('placeholder', 'state your business')
 Change value of name input
 ```javascript
 $('#name').attr('value', 'your nemesis')
+// or
+$('#name').val('your nemesis')
 ```
 
 Change value of email input
 ```javascript
 $('#email').attr('value', 'koalathebear@gmail.com')
+// or
+$('#email').val('koalathebear@gmail.com')
 ```
 
 Change value of submit button
 ```javascript
 $('#submit').attr('value', 'En garde!')
+// or
+$('#submit').val('En garde!')
 ```

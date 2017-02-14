@@ -27,12 +27,12 @@ $('#employment .info-title').contents().last().replaceWith('&nbsp;Werks I did');
 $('#time-travel').parent().remove()
 ```
 
-5. Change background color on <body>
+5. Change background-color on <body>
 ```javascript
 $('body').css('background-color', 'silver')
 ```
 
-6. Change colour of 'highlight' class
+6. Change color of 'highlight' class
 ```javascript
 $('.highlight').css('color', 'navy')
 ```
@@ -40,4 +40,9 @@ $('.highlight').css('color', 'navy')
 7. Change font family of h1 to 'monospace'
 ```javascript
 $('h1').css('font-family', 'monospace')
+```
+
+8. Change background-color of round icons in sidebar
+```javascript
+$('.action-icon-bg').css('background-color', '#00adef')
 ```

@@ -85,3 +85,11 @@ Remove personal info from sidebar
 ```javascript
 $('.bio-info').empty()
 ```
+
+## Adding Elements to the DOM
+Clone Pikachu and insert at bottom
+```javascript
+$('#right-image img').clone().insertAfter('form')
+// or
+$('#right-image img').clone().appendTo('section')
+```

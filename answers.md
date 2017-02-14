@@ -64,3 +64,8 @@ Change value of email input
 ```javascript
 $('#email').attr('value', 'koalathebear@gmail.com')
 ```
+
+Change value of submit button
+```javascript
+$('#submit').attr('value', 'En garde!')
+```

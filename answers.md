@@ -26,3 +26,8 @@ $('#employment .info-title').contents().last().replaceWith('&nbsp;Werks I did');
 ```javascript
 $('#time-travel').parent().remove()
 ```
+
+5. Change background color on <body>
+```javascript
+$('body').css('background-color', 'darkslategray')
+```
